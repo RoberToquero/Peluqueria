@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.peluqueria2.RegistroController">
+   <children>
+      <TextField fx:id="Text_email" layoutX="213.0" layoutY="89.0" />
+      <TextField fx:id="Text_usuario" layoutX="213.0" layoutY="138.0" />
+      <PasswordField fx:id="Text_password" layoutX="213.0" layoutY="194.0" />
+      <Label layoutX="136.0" layoutY="93.0" text="Email" />
+      <Label layoutX="136.0" layoutY="142.0" text="Usuario" />
+      <Label layoutX="136.0" layoutY="198.0" text="Contraseña" />
+      <Button fx:id="Button_registro" layoutX="202.0" layoutY="258.0" mnemonicParsing="false" onAction="#Registrarse" text="Registrarse" />
+      <Button fx:id="Button_Limpiar" layoutX="309.0" layoutY="258.0" mnemonicParsing="false" onAction="#Limpiar" text="Limpiar Datos" />
+   </children>
+</AnchorPane>
